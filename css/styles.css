@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.nums {
+    color: #1792d2;
+}
+
+a {
+    text-decoration: none;
+    color: #f8f8f8;
+    font-weight: 400;
+    padding: .25em 0;
+}
+
+button {
+    background-color: #707070; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+/*--TYPOGHRAPHY--*/
+
+h1 {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    color: #143774;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.subtitle {
+    font-weight: 700;
+    color: #1792d2;
+    font-size: .75rem;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+/*---NAV STYLES---*/
+
+header {
+    background: #f8f8f8;
+    padding: 1em 0;
+}
+
+nav {
+    margin-top: 12px;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+nav li {
+    margin-left: 2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #707070;
+    font-weight: 700;
+    padding: .25em 0;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #1792d2;
+}
+
+
+/*---BANNER 1 STYLES---*/
+
+.banner-1 {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    color: #f8f8f8;
+    padding: 0;
+}
+
+.banner-1-container {
+    background: #143774;
+    padding: 1em 0;
+}
+
+
+/*---BANNER 2 STYLES---*/
+
+.banner-2-container {
+    background: #f8f8f8;
+    padding: 1em 0;
+}
+
+.banner-2-header {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-2-mid {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+}
+
+.banner-2-list {
+    padding: 1em 0;
+}
+
+.banner-2-list li {
+    margin: 2em 0;
+}
+
+.products-btn {
+    padding: 0 2em;
+}
+
+
+/*---MEDIA QUERIES---*/
+
+@media (max-width: 675px) {
+    .container-nav {
+        flex-direction: column;
+    }
+
+    header {
+        text-align: center;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: .25em 0;
+    }
+
+    .banner-2-mid {
+        flex-direction: column;
+    }
+   
+}
